@@ -5,6 +5,7 @@ p stops << "Edinburgh Waverley"
 # 2. Add `"Glasgow Queen St"` to the start of the array
 p stops.unshift("Glasgow Queen St")
 # 3. Add `"Polmont"` at the appropriate point (between `"Falkirk High"` and `"Linlithgow"`)
+p stops.insert(4, "Polmont")
 # 4. Work out the index position of `"Linlithgow"`
 # 5. Remove `"Livingston"` from the array using its name
 # 6. Delete `"Cumbernauld"` from the array by index
